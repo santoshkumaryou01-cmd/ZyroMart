@@ -1,0 +1,19 @@
+{
+  "name": "zyromart-android",
+  "version": "1.1.0",
+  "private": true,
+  "description": "ZyroMart multi-vendor Android app prototype with Firebase Authentication and Firestore",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "firebase": "^11.10.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "vite": "^6.3.5"
+  }
+}
